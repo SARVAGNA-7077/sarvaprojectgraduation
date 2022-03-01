@@ -23,3 +23,52 @@
 .propertiesTable {
   position: relative;bottom: 350px
 }
+
+
+.alternationsgenerations {
+  width: 500px;
+  height: 250px;
+  float: right;
+  position: relative;bottom: 250px;
+}
+
+.groundtissue {
+  float: right;
+  width: 500px;
+  height: 250px;
+  position: relative; bottom: 300px;
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+.theorm {
+  width: 500px;
+  height: 300px;
+}
+
+.electionCommision,.politicalParties{
+  width: 500px;
+  height: 300px;
+}
+
+.evm,.coalation{
+  height: 200px;
+  width: 500px;
+}
+
+.electionProccess {
+  height: 300px;
+  width: 500px;
+}

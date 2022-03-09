@@ -162,7 +162,7 @@ body {
   margin: 0;
   font: "Lato", sans-serif;
   color: #FFFFFF;
-  background-color: #222831;
+  background-color: #000;
 }
   h3 {
   letter-spacing: 5px;
@@ -245,11 +245,6 @@ i {
 	font-style: italic;
 }
 
-p {
-	margin: 0 0 2rem 0;
-	font: 400 15px/1.8 "Lato", sans-serif;
-	color: #85F4FF;
-}
 
 h1,
 h2,
@@ -1663,7 +1658,8 @@ p {
 	font-size: 20px;
 }
 
-hr.sep-2 {
+hr.sep-2
+ {
 	border: 0;
 	height: 1px;
 	background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
@@ -1958,8 +1954,8 @@ img:hover {
 
 .nav {
 	width: 100%;
-	height: 65px;
-	line-height: 65px;
+	height: 20px;
+	line-height: 20px;
 	text-align: center;
 }
 
@@ -1967,13 +1963,14 @@ img:hover {
 	float: left;
 	width: auto;
 	height: auto;
-	padding-left: 3rem;
+	padding-left: ;
 }
 
 .nav div.logo a {
 	text-decoration: none;
 	color: cyan;
-	font-size: 2.5rem;
+	font-size: 40px;
+
 }
 
 .nav div.logo a:hover {
@@ -1984,6 +1981,7 @@ img:hover {
 .nav div.main_list {
 	height: 65px;
 	float: right;
+		font-size: 25px;
 }
 
 .nav div.main_list ul {
@@ -1991,6 +1989,7 @@ img:hover {
 	height: 65px;
 	display: flex;
 	list-style: none;
+		font-size: 25px;
 	margin: 0;
 	padding: 0;
 }
@@ -2000,13 +1999,15 @@ img:hover {
 	height: 65px;
 	padding: 0;
 	padding-right: 3rem;
+		font-size: 25px;
 }
 
 .nav div.main_list ul li a {
 	text-decoration: none;
 	color: cyan;
+		font-size: 25px;
 	line-height: 65px;
-	font-size: 2.4rem;
+position: relative; bottom: 20px;
 }
 
 .nav div.main_list ul li a:hover {
@@ -2026,65 +2027,16 @@ img:hover {
 	padding-bottom: 20px;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
+	font-size: 5px;
 }
 
-
-/* Media qurey section */
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-	.container {
-		margin: 0;
-	}
-}
-
-@media screen and (max-width:768px) {
-	.navTrigger {
-		display: block;
-	}
-	.nav div.logo {
-		margin-left: 15px;
-	}
-	.nav div.main_list {
-		width: 100%;
-		height: 0;
-		overflow: hidden;
-	}
-	.nav div.show_list {
-		height: auto;
-		display: none;
-	}
-	.nav div.main_list ul {
-		flex-direction: column;
-		width: 100%;
-		height: 100vh;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		background-color: #111;
-		/*same background color of navbar*/
-		background-position: center top;
-	}
-	.nav div.main_list ul li {
-		width: 100%;
-		text-align: right;
-	}
-	.nav div.main_list ul li a {
-		text-align: center;
-		width: 100%;
-		font-size: 3rem;
-		padding: 20px;
-	}
-	.nav div.media_button {
-		display: block;
-	}
-}
 
 
 /* Animation */
 
 
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
-
+/*
 .navTrigger {
 	cursor: pointer;
 	width: 30px;
@@ -2295,7 +2247,7 @@ img:hover {
 	.myP {
 		padding: 2%;
 	}
-}
+} */
 
 .imagemySarvagnaImg {
 	width: 400px;
@@ -2310,105 +2262,6 @@ img:hover {
 
 #myImg:hover {
 	opacity: 0.7;
-}
-
-
-/* The Modal (background) */
-
-.modal {
-	display: none;
-	/* Hidden by default */
-	position: fixed;
-	/* Stay in place */
-	z-index: 1;
-	/* Sit on top */
-	padding-top: 100px;
-	/* Location of the box */
-	left: 0;
-	top: 0;
-	width: 100%;
-	/* Full width */
-	height: 100%;
-	/* Full height */
-	overflow: auto;
-	/* Enable scroll if needed */
-	background-color: rgb(0, 0, 0);
-	/* Fallback color */
-	background-color: rgba(0, 0, 0, 0.9);
-	/* Black w/ opacity */
-}
-
-
-/* Modal Content (image) */
-
-.modal-content {
-	margin: auto;
-	display: block;
-	width: 80%;
-	max-width: 700px;
-}
-
-
-/* Caption of Modal Image */
-
-#caption {
-	margin: auto;
-	display: block;
-	width: 80%;
-	max-width: 700px;
-	text-align: center;
-	color: #ccc;
-	padding: 10px 0;
-	height: 150px;
-}
-
-
-/* Add Animation */
-
-.modal-content,
-#caption {
-	-webkit-animation-name: zoom;
-	-webkit-animation-duration: 0.6s;
-	animation-name: zoom;
-	animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-	from {
-		-webkit-transform: scale(0)
-	}
-	to {
-		-webkit-transform: scale(1)
-	}
-}
-
-@keyframes zoom {
-	from {
-		transform: scale(0)
-	}
-	to {
-		transform: scale(1)
-	}
-}
-
-
-/* The Close Button */
-
-.close {
-	position: absolute;
-	top: 15px;
-	right: 35px;
-	color: #f1f1f1;
-	font-size: 40px;
-	font-weight: bold;
-	transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-	color: #bbb;
-	text-decoration: none;
-	cursor: pointer;
 }
 
 
@@ -2430,4 +2283,55 @@ img:hover {
 	text-shadow: 0 0 5px #fff, 0 0 10px #f4f, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
 	text-align: center;
 	font-size: 10em;
+}
+
+/*Scroll Bar*/
+
+
+::-webkit-scrollbar
+{
+	width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb
+{
+	background: linear-gradient(transparent,#30ff00);
+	border-radius: 6px;
+  transition: transform 500ms ease-in-out 25ms;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+		background: linear-gradient(transparent,#00FFFF);
+		  transform: translateX(0px) translateY(75px);
+			transform: scale(1.1);
+}
+
+
+.mathsBody {
+  background-image: url('https://us.123rf.com/450wm/sn333g/sn333g1901/sn333g190100400/115836023-stem-education-vector-colorful-frame-with-dark-background.jpg?ver=6');
+	height: 400px;
+
+
+}
+
+.expressionsStarting {
+	background-color: #0E185F;
+	opacity: 2
+}
+
+
+.expressionsSimplification {
+	background-color: #52057B;
+position: relative;bottom: 24px
+		/* font: inherit; */
+	/* color: #FFF000; */
+}
+
+
+p {
+	margin: 0 0 2rem 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	color: white;
 }

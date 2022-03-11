@@ -16,7 +16,7 @@ a,
 abbr,
 acronym,
 address,
-big,
+
 cite,
 code,
 del,
@@ -84,6 +84,7 @@ video {
 	vertical-align: baseline;
   color: #FFF;
 }
+
 
 article,
 aside,
@@ -163,6 +164,7 @@ body {
   font: "Lato", sans-serif;
   color: #FFFFFF;
   background-color: #000;
+	    font-family: barlow condensed,sans-serif;
 }
   h3 {
   letter-spacing: 5px;
@@ -680,7 +682,7 @@ input[type="radio"]+label:before {
 	text-rendering: auto;
 	line-height: 1;
 	text-transform: none !important;
-	font-family: 'Font Awesome 5 Free';
+    font-family: barlow condensed,sans-serif;
 	font-weight: 400;
 }
 
@@ -1678,6 +1680,7 @@ hr.sep-2
 .physicsIntroSound {
 	font-size: 10em;
 	text-align: center;
+	background-color: # 0E185F;
 }
 
 .headingTopics {
@@ -1700,7 +1703,7 @@ hr.sep-2
 	float: right;
 	position: relative;
 	top: 50;
-	left: 20px;
+	left: 390px;
 	bottom: 300px;
 	right: 400px;
 }
@@ -1767,7 +1770,7 @@ th {
 	float: right;
 	position: relative;
 	bottom: 330px;
-	right: 300px
+	right: 300px;
 }
 
 .phlow {
@@ -2301,17 +2304,19 @@ position: relative; bottom: 20px;
   transition: transform 500ms ease-in-out 25ms;
 }
 
+
 ::-webkit-scrollbar-thumb:hover
 {
 		background: linear-gradient(transparent,#00FFFF);
-		  transform: translateX(0px) translateY(75px);
-			transform: scale(1.1);
+		transform: translateX(0px) translateY(75px);
+		transform: scale(1.1);
+
 }
 
 
 .mathsBody {
   background-image: url('https://us.123rf.com/450wm/sn333g/sn333g1901/sn333g190100400/115836023-stem-education-vector-colorful-frame-with-dark-background.jpg?ver=6');
-	height: 400px;
+
 
 
 }
@@ -2334,4 +2339,75 @@ p {
 	margin: 0 0 2rem 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
 	color: white;
+}
+
+.equations {
+	background-color: #023436;
+}
+
+.regularNeon {
+	color: #ffffff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #f4f, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+	text-align: center;
+}
+
+
+.geometry {
+	background-color: #C57B57;
+}
+
+
+.socialHeading {
+	background-image: url('https://cdn.pixabay.com/photo/2022/01/30/13/13/astronomy-6980857_960_720.jpg');
+	background-size: 1366px;
+}
+
+.riversofindiabackground {
+	background-color: #2A1E5C;
+}
+
+.windtoelectricitybackground {
+	background-color: #6B0504;
+}
+
+.politicalscience {
+	background-color: #02182B;
+}
+
+
+.bigHistory {
+	background-image: url('https://www.bighistoryproject.com/BH/assets/images/home/ch2-home.jpg');
+	background-size: 1366px 700px;
+}
+
+.formationUniverse {
+	background-color: #16213E;
+}
+
+
+.nameForm {
+	text-align: center;
+	background-color: black;
+	width: 1080px
+}
+
+
+.biologyNeon {
+	color: #ffffff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #f4f, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+	text-align: center;
+background-image: url("images\biologyBanner.jpg");
+		position: relative;
+		bottom: 50px
+}
+
+
+.physicsIntro {
+	background-image: url('https://insidetheperimeter.ca/wp-content/uploads/2021/07/Generic_Physics_of_Sports_Facebook.jpeg');
+}
+
+
+big {
+	font-size: 15px;
+	font-weight: bold;
 }

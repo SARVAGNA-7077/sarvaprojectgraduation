@@ -1769,8 +1769,8 @@ th {
 .basesNatural {
 	float: right;
 	position: relative;
-	bottom: 330px;
-	right: 300px;
+	bottom: 250px;
+	right: 500px;
 }
 
 .phlow {
@@ -1960,6 +1960,7 @@ img:hover {
 	height: 20px;
 	line-height: 20px;
 	text-align: center;
+	  font: "Lato", sans-serif;
 }
 
 .nav div.logo {
@@ -1967,24 +1968,28 @@ img:hover {
 	width: auto;
 	height: auto;
 	padding-left: ;
+	  font: "Lato", sans-serif;
 }
 
 .nav div.logo a {
 	text-decoration: none;
 	color: cyan;
 	font-size: 40px;
+	  font: "Lato", sans-serif;
 
 }
 
 .nav div.logo a:hover {
 	color: black;
 	background-color: cyan;
+	  font: "Lato", sans-serif;
 }
 
 .nav div.main_list {
 	height: 65px;
 	float: right;
 		font-size: 25px;
+		  font: "Lato", sans-serif;
 }
 
 .nav div.main_list ul {
@@ -1995,6 +2000,7 @@ img:hover {
 		font-size: 25px;
 	margin: 0;
 	padding: 0;
+	  font: "Lato", sans-serif;
 }
 
 .nav div.main_list ul li {
@@ -2003,6 +2009,7 @@ img:hover {
 	padding: 0;
 	padding-right: 3rem;
 		font-size: 25px;
+		  font: "Lato", sans-serif;
 }
 
 .nav div.main_list ul li a {
@@ -2011,11 +2018,13 @@ img:hover {
 		font-size: 25px;
 	line-height: 65px;
 position: relative; bottom: 20px;
+  font: "Lato", sans-serif;
 }
 
 .nav div.main_list ul li a:hover {
 	color: black;
 	background-color: cyan;
+	  font: "Lato", sans-serif;
 }
 
 
